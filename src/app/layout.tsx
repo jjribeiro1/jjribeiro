@@ -17,7 +17,7 @@ export default function RootLayout({
   return (
     <html
       lang="pt-BR"
-      className={`${GeistSans.variable} ${GeistMono.variable} bg-slate-950`}
+      className={`${GeistSans.variable} ${GeistMono.variable} bg-slate-950 scroll-smooth`}
     >
       <body>
         <Header />
