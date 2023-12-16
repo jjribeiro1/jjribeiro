@@ -3,7 +3,7 @@ import DropdownMenu from './DropdownMenu'
 
 export default function Header() {
   return (
-    <header className="sticky inset-0 flex items-center justify-between p-4 md:px-10">
+    <header className="sticky inset-0 flex items-center justify-between bg-slate-950 p-4 md:px-10">
       <h1 className="cursor-pointer font-bold tracking-wide text-gray-100 lg:text-2xl">
         JJRIBEIRO
       </h1>
