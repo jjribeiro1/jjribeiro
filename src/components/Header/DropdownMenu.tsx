@@ -23,7 +23,10 @@ export default function DropdownMenu() {
         </svg>
       </Dropdown.Trigger>
       <Dropdown.Portal>
-        <Dropdown.Content className="rounded-md bg-slate-900" sideOffset={7}>
+        <Dropdown.Content
+          className="z-40 rounded-md bg-slate-900"
+          sideOffset={7}
+        >
           <ul className="flex flex-col gap-1 text-gray-100">
             <li className="cursor-pointer rounded-md px-4 py-1 text-xs transition-all duration-300 hover:bg-gray-800 hover:text-gray-200">
               <Link href="#about">Sobre</Link>
