@@ -3,7 +3,7 @@ import Image from 'next/image'
 export default function TechSection() {
   return (
     <section className="flex flex-col gap-10 px-4 py-16 md:py-24">
-      <h2 className="text-center text-xl font-semibold text-gray-300">
+      <h2 className="text-center text-2xl lg:text-4xl font-semibold text-gray-300">
         Principais Tecnologias
       </h2>
 
