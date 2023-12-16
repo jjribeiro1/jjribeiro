@@ -3,7 +3,10 @@ import Image from 'next/image'
 
 export default function About() {
   return (
-    <section className="py-16 grid grid-cols-1 place-items-center px-4 md:py-24 md:grid-cols-2 md:px-10">
+    <section
+      id="about"
+      className="grid grid-cols-1 place-items-center px-4 py-16 md:grid-cols-2 md:px-10 md:py-24"
+    >
       <div className="flex flex-col gap-4">
         <p className="font-mono text-xl font-semibold text-gray-300 lg:text-3xl">
           João Vitor Ribeiro

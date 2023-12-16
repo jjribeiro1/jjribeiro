@@ -4,7 +4,10 @@ import { projectsData } from '@/data/projects'
 
 export default function Projects() {
   return (
-    <section className="flex flex-col gap-12 px-4 py-16 md:py-24">
+    <section
+      id="projects"
+      className="flex flex-col gap-12 px-4 py-16 md:py-24"
+    >
       <h2 className="text-center text-2xl font-semibold text-gray-200 lg:text-4xl">
         Projetos
       </h2>
