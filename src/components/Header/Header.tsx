@@ -10,16 +10,31 @@ export default function Header() {
 
       <nav className="hidden md:block">
         <ul className="flex items-center gap-4 text-gray-100">
-          <li className="cursor-pointer rounded-md px-4 py-1 transition-colors duration-300 hover:bg-gray-900">
-            <Link href="/#about">Sobre</Link>
+          <li>
+            <Link
+              className="rounded-md px-4 py-2 transition-colors duration-300 hover:bg-gray-900"
+              href="/#about"
+            >
+              Sobre
+            </Link>
           </li>
 
-          <li className="cursor-pointer rounded-md px-4 py-1 transition-colors duration-300 hover:bg-gray-900">
-            <Link href="/#projects">Projetos</Link>
+          <li>
+            <Link
+              className="rounded-md px-4 py-2 transition-colors duration-300 hover:bg-gray-900"
+              href="/#projects"
+            >
+              Projetos
+            </Link>
           </li>
 
-          <li className="cursor-pointer rounded-md px-4 py-1 transition-colors duration-300 hover:bg-gray-900">
-            <Link href="/#contact">Contato</Link>
+          <li>
+            <Link
+              className="rounded-md px-4 py-2 transition-colors duration-300 hover:bg-gray-900"
+              href="/#contact"
+            >
+              Contato
+            </Link>
           </li>
         </ul>
       </nav>
