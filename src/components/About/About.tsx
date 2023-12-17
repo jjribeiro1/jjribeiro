@@ -22,7 +22,7 @@ export default function About() {
 
       <div className="hidden md:block">
         <Image
-          src={'/profile.jpeg'}
+          src={'/images/profile.jpeg'}
           alt="foto de perfil"
           width={250}
           height={250}
