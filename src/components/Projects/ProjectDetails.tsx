@@ -14,7 +14,7 @@ export default function ProjectDetailsDialog({ project, children }: Props) {
     <Dialog.Root>
       <Dialog.Trigger asChild>{children}</Dialog.Trigger>
       <Dialog.Portal>
-        <Dialog.Overlay className="fixed inset-0 bg-gray-950/40" />
+        <Dialog.Overlay className="fixed inset-0 bg-gray-950/60" />
         <Dialog.Content className="fixed left-1/2 top-1/2 z-50 -translate-x-1/2 -translate-y-1/2 rounded-md bg-slate-900">
           <div className="relative flex max-h-[550px] min-w-[300px] max-w-3xl flex-col lg:max-h-[650px]">
             <div>
